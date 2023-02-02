@@ -1,3 +1,6 @@
+// A function is a block of code that performs a specific task. 
+// A function is a relationship between inputs where each input is related to exactly one output.
+
 // In JavaScript, the template literals (` `) and ${expression} as placeholders perform the string interpolation.
 
 // function myFunction(son1, son2) {

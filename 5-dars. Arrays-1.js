@@ -1,3 +1,5 @@
+// Array is an object that is used to store multiple values in a single variable.
+
 // --- Literal Arrays --- //
 
 // --- Empty array --- //
