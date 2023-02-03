@@ -7,7 +7,7 @@ function myFirstApp(name, age) {
             alert(`You have skills ${skills[i]}`)
         }
     }
-    showSkills()
+    showSkills();
 
     function checkAge() {
         let age = prompt(`Sizni yoshiz nechida?`)
@@ -18,7 +18,7 @@ function myFirstApp(name, age) {
             alert(`Super data for learning IT`)
         }
     }
-    checkAge()
+    checkAge();
 
     function kvadrat(son) {
         return son * son;

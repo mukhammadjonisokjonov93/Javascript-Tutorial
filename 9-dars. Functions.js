@@ -1,62 +1,88 @@
+// --- Javascript Function --- //
+
 // A function is a block of code that performs a specific task. 
 // A function is a relationship between inputs where each input is related to exactly one output.
 
 // In JavaScript, the template literals (` `) and ${expression} as placeholders perform the string interpolation.
 
-// function myFunction(son1, son2) {
-//     return son1 + son2;
-// }
-// console.log(myFunction(10, 20));    // 30
-// const result = myFunction(30, 40);  // 70
-// console.log(result + 10);           // 80
 
-// 1. Function declaration
+// --- declaring and calling a function --- //
 
-// console.log(kvadrat(2));      // 4
+// A function is declared using the function keyword.
+// To use the function named greet(), we need to call it.
 
-// function kvadrat(son) {
-//     return son * son;
-// }
-
-// console.log(kvadrat(10));     // 100
+// declaring a function named greet()
+function greet() {
+    console.log("Hello there!");
+}
+// calling function
+greet();
 
 
-// 2. Function expression
+// --- function parameters --- //
 
-// function kvadrat(son) {
-//     return son * son;
-// }
+// A function can also be declared with parameters.
 
-// console.log(kvadrat(10));     // 100
-
-
-// 3. Arrow function
-
-// Arrow function - function expression yozishning qisqaroq ko'rinishi.
-
-// 3.1. Function expressionga juda o'xshash bo'lib, faqatgina arrow (=>) kalit so'ziga ega bo'ladi.
-
-// const kvadrat = (son) => {
-//     return son * son;
-// }
-// console.log(kvadrat(10));
-
-// 3.2. Agar funksiya tana qismi bir statement'dan iborat bo'lsa, return kalit so'zini yozmaslik mumkin.
-
-// const kvadrat = son => son * son;
-// console.log(kvadrat(10));
-
-// 3.3. Agar funksiya hech qanday parametrga ega bo'lmasa
-
-// const print = () => {
-//     console.log("Printing...");
-//     console.log("Second Printing...");
-// }
-// print();
-
-// 3.4. Ikki yoki undan ko'p parametrga ega bo'lgan funksiya uchun, parametrlar qavslar ichida bo'lishi shart.
-
-// const volume = (a, b, c) => a * b * c;
-// console.log(volume(1, 2, 3));       // 6
+// program to add two numbers using a function
+// declaring a function
+function add(a, b) {
+    console.log(a + b);
+}
+// calling function
+add(3, 4);
 
 
+// --- function return --- //
+
+// The return statement can be used to return the value to function call.
+// The return statement denotes that the function has ended.
+// Any code after return is not executed.
+
+// program to add two numbers using a function
+// declaring a function
+function add(a, b) {
+    return a + b;
+}
+// calling function
+let result = add(3, 4);
+// display the result
+console.log("The sum is " + result);
+
+
+
+// --- Arrow Function --- //
+
+// Arrow function is one of the features introduced in the ES6 version of Javascript.
+// Arrow function is a simple and short way of function expression.
+
+// function expression
+let x = function(x, y) {
+    return x + y;
+}
+
+// using arrow function
+let a = (a, b) => {
+    return a + b;
+}
+
+// --- arrow function with no argument --- //
+
+let salom = () => console.log('Hello');
+salom();
+
+
+// --- arrow function with one argument --- //
+
+let item = x => console.log(x);
+item('Hello world');
+
+
+// --- multiline arrow functions --- // 
+
+let sum = (a, b) => {
+    let result = a + b;
+    return result;
+}
+
+let result1 = sum(5, 7);
+console.log(result1);

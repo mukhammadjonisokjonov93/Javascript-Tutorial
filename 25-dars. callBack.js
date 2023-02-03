@@ -21,3 +21,38 @@ function callMe() {
 // passing function as an argument
 greet('Peter', callMe);
 
+
+
+// --- Promise vs CallBack --- //
+
+// In Javascript Promise
+// The syntax is user-friendly and easy to read
+// Error handling is easier to manage
+
+api().then(function(result) {
+    return api2();
+}).then(function(result2) {
+    return api3();
+}).then(function(result3) {
+    // do work
+}).catch(function(error) {
+    // handle any error that may occur before this point
+});
+
+
+// In Javascript CallBack
+// The syntax is difficult to understand
+// Error handling may be hard to manage
+
+api(function(result) {
+    api2(function(result2) {
+        api3(function(result3) {
+            // do work
+            if(error) {
+                // do something
+            } else {
+                // do something
+            }
+        });
+    });
+});

@@ -1,4 +1,6 @@
-// Object - bir nechta ma'lumotlar to'plamini saqlashga imkon beruvchi ma'lumot turi 
+// Object - a non-primitive data type that allows you to store multiple collections of data.
+
+// Here dasturchi is an object that stores values such as strings and numbers. 
 
 const dasturchi = {
     ism: `Ulug'bek`,
@@ -8,7 +10,6 @@ console.log(dasturchi);
 console.log(typeof dasturchi);
 console.log(dasturchi.ism);
 console.log(dasturchi.yosh);
-
 
 // Nested object
 

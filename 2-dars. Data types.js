@@ -1,5 +1,10 @@
 // --- Data types --- //
 
+// In Javascript, a primitive data type is data that has no methods or properties. An example of primitive data type is: string, number, boolean, undefined, null.
+
+// Non-primitive data type is an object. The Javascript arrays and functions are also objects.
+
+
 // Creating a variable in JavaScript is called "declaring a variable".
 // You declare a JavaScript variable with the "var" or "let" keyword.
 
@@ -132,17 +137,5 @@ console.log(m == 6 || n == 3);
 
 console.log(!(m === n));         // logical not
 console.log(!(m > n));
-
-// alert ('Hello World');
-
-// confirm('Sizni yoshiz 18mi?');
-// let asnwers = confirm('Sizni yoshiz 18mi?');
-// console.log(answers);
-
-// prompt("How are you?");
-// const status = prompt("How are you?");
-// console.log(status);
-
-
 
 
