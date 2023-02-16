@@ -28,3 +28,7 @@ console.log(result);
 const sortValues = (number1, number2) => number1 - number2;
 result.sort(sortValues);
 console.log(result);
+
+// The join() method returns an array as a string
+const joinValues = result.join();
+console.log(joinValues);

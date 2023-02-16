@@ -3,7 +3,7 @@
 // We use the async keyword with a function to represent that the function is an asynchronous function.
 // The async function returns a promise.
 
-//         async function name(paramete1, parameter2, ...parameterN) {
+//         async function name(parameter1, parameter2, ...parameterN) {
 //             // statements
 //         }
 //         name - name of the function
