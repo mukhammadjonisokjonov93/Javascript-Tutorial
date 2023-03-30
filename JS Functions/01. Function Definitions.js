@@ -111,11 +111,11 @@ button.addEventListener("click", function () {
 
 // 2. Function declarations are hoisted which means that they can be used before the function is declared. They are initialized at compile time while a function expression is not hoisted, they can only be called after the function is declared and read by the interpreter.
 
-// 3. A function declaration can not be passed into another function but a function expression can be passed as a function into another function.
-
+// 3. A function declaration can not be passed into another function but a function expression can be passed as an argument into another function.
 
 // --- Arrow Function --- //
 
+// The central symbol of an arrow function is the fat arrow "=>".
 // Arrow function is one of the features introduced in the ES6 version of Javascript.
 // Arrow function is a simple and short way of function expression.
 
