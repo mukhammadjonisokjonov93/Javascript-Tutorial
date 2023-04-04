@@ -1,4 +1,4 @@
-// Array is an object that is used to store multiple values in a single variable.
+// An array is a special variable, which can hold more than one value.
 
 // --- Literal Arrays --- //
 
@@ -24,11 +24,12 @@ console.log(helloArray[0]);
 console.log(helloArray[2]);
 
 // 2. Array'ga element qo'shish
-// push() metodi yordamida array oxiriga element qo'shish mumkin
+// The push() method adds a new element to an array (at the end):
 let languages = [`Phyton`, `Java`];
 languages.push(`go`);
 console.log(languages);
-// unshift() yordamida array boshiga element qo'shish mumkin
+
+// The unshift() method adds a new element to an array (at the beginning):
 let program = [`Phyton`, `Java`];
 program.unshift('go');
 console.log(program);
@@ -39,13 +40,14 @@ language[1] = `Vue`;
 console.log(language);
 
 // 4. Array elementini o'chirish
-// pop() metodidan foydalanib array ichidagi oxirgi elementni o'chirish mumkin
+// The pop() method removes the last element from an array:
 const some = [`Java`, `Phyton`, `Vue`, `Swift`];
 console.log(some);
 const deletedSome = some.pop();
 console.log(some);
 console.log(deletedSome);
-// shift() metodidan foydalanib array ichidagi birinchi elementni o'chirish mumkin
+
+// The shift() method removes the first array element and "shifts" all other elements to a lower index.
 const any = [`Java`, `Phyton`, `Vue`, `Swift`];
 console.log(any);
 const deletedAny = any.shift();
@@ -55,4 +57,8 @@ console.log(deletedAny);
 // 5. Array uzunligini aniqlash
 const other = [`Java`, `Phyton`, `Vue`];
 console.log(other.length);
+
+// The length property provides an easy way to append a new element to an array:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";
 

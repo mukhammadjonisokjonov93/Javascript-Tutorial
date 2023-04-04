@@ -35,3 +35,8 @@ const book2 = {
 console.log(book2.getSummary());
 console.log(Object.values(book2));
 console.log(Object.keys(book2));
+
+// There are 3 things you need to understand : Class, Object, and Instance.
+// Class : Class is the blueprint code from which you will create an Object.
+// Object : When memory is allocated to the data entity (created from blueprint class) , that data entity or reference to it is called Object.
+// Instance : When data is filled in an Object , it becomes an instance of that Object. It can also be called a state of that Object.

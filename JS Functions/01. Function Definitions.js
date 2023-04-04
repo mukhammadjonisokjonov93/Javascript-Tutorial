@@ -1,7 +1,8 @@
 // --- Javascript Function --- //
 
 // A function is a block of code that performs a specific task.
-// A function is a relationship between inputs where each input is related to exactly one output.
+// A JavaScript function is executed when "something" invokes it (calls it).
+// In JavaScript functions, you can use the same code many times with different arguments to produce different results.
 
 // In JavaScript, the template literals (` `) and ${expression} as placeholders perform the string interpolation.
 
@@ -32,7 +33,7 @@ add(3, 4);
 // --- function return --- //
 
 // The return statement can be used to return the value to function call.
-// The return statement denotes that the function has ended.
+// The return statement means that the function has ended.
 // Any code after return is not executed.
 
 // program to add two numbers using a function
@@ -61,7 +62,6 @@ function add(a, b) {
 }
 
 let total1 = add(5, 5);
-
 console.log(total1);
 
 // One major benefit of using a function declaration is that it allows Hoisting. it simply means our function can be called and used even before it is declared.
@@ -88,7 +88,6 @@ console.log(total2);
 let functionExpression = function () {
   // statement
 };
-
 functionExpression();
 
 // Example of function expression

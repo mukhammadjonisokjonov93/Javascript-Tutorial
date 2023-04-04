@@ -1,5 +1,7 @@
 // Higher Order Functions and Arrays //
 
+// Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher order functions.
+
 const companies = [
     {name: "Company One", category: "Finance", start: 1981, end: 2003},
     {name: "Company Two", category: "Retail", start: 1992, end: 2008},
